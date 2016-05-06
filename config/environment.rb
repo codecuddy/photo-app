@@ -6,7 +6,7 @@ Rails.application.initialize!
 
 ActionMailer::Base.smtp_settings = {
     :address => 'smtp.sendgrid.net',
-    :port => '587',
+    :port => 2525,
     :authentication => :plain,
     :user_name => ENV['charliephoto'],
     :password => ENV['password1'],
